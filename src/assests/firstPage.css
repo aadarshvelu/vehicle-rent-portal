@@ -1,0 +1,23 @@
+.title {
+    font-size: 36px;
+}
+
+.tf {
+    width: 100%;
+}
+
+.tf1 {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.tf2 {
+    margin: 30px 0;
+    width: 100%;
+}
+
+@media (max-width: 580px) {
+    .title {
+        font-size: 24px;
+    }
+}
