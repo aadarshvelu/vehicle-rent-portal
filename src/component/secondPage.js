@@ -29,7 +29,7 @@ const SecondPage = (props) => {
     return ( 
         <>
             <div className="header">
-               Select Number of wheels ?
+               Okay! Select Vehicle Please ?
             </div>
             <div className="radio-btn">
                 <RadioGroup

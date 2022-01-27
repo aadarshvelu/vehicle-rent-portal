@@ -31,7 +31,7 @@ const FifthPage = (props) => {
         await fetch(`${baseUrl}/book`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ ...data, bookedDate: ["2021-01-15", "2021-01-18"] })
+            body: JSON.stringify({ ...data, bookedDate: value })
         })
         .then((res) => {
             if (!res.ok) {
